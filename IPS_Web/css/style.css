@@ -1,0 +1,242 @@
+/*colores
+rojo:#d50000
+gris fondo:#EDEDED;
+gis oscuro:#424242;
+*/
+
+body{
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	color: #424242;
+}
+
+
+b{
+	font-weight: 700;
+}
+
+header{
+	height: 80px;
+	background: #000000;
+}
+
+.logo{
+	width: 300px;
+	margin: 20px;
+	margin-left: 35px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+
+nav ul li{
+	display: inline-block; 
+}
+
+nav ul li a{
+	padding: 15px;
+	color: white;
+}
+
+.center{
+	text-align: center;
+}
+
+.espacio{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.splash{
+	width: 100%;
+	height:100vh;
+	background: url(../image/portada.jpg) center center fixed;
+	background-size: cover;
+}
+
+.splash .col-md-12{
+	margin-top: 100px;
+	color: white;
+	margin-top: 35vh;
+}
+
+.splash h1{
+	font-weight: 100;
+	font-size: 55px;
+}
+
+.splash h1:nth-child(2){
+	font-weight: 700;
+}
+
+#nosotros{
+	background: linear-gradient(to left, #EDEDED 75%,#EDEDED 0%,#000000 0%,white 75%,white 0%);
+}
+
+.col-md-6{
+	text-align: center;
+	}
+
+#nosotros .col-md-6 h2{
+	font-weight: 100;
+	font-size: 45px;
+	text-align: left;
+}
+
+#nosotros .foto{
+	width: 80%;
+	height: auto;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nosotros .col-md-6 h3{
+	font-weight: 400;
+	margin-top: 35px;
+	text-align: left;
+	color: #d50000;
+}
+
+#nosotros .col-md-6 p{
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: left;
+	width: 80%;
+}
+
+#valores h3 {
+	font-weight: 400;
+	text-align: center;
+	color: #d50000;
+}
+
+#valores .col-md-4 h4{
+	font-weight: 700;
+	text-align: center;
+	color: #424242;
+}
+
+#valores i{
+	font-size: 70px;
+	margin-bottom: 20px;
+	margin-top: 90px;
+}
+
+#valores p{
+	font-size: 20px;
+}
+
+#servicio{
+	background: linear-gradient(to right, #EDEDED 75%,#EDEDED 0%,#000000 0%,white 75%,white 0%);
+}
+
+#servicio .col-md-6 h2{
+	font-weight: 100;
+	font-size: 45px;
+	margin-bottom: 35px;
+}
+
+#servicio ul li{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+	list-style: none;
+}
+
+#servicio i{
+	font-size: 30px;
+	color: #d50000;
+	letter-spacing: 15px;
+}
+
+#servicio .foto{
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.19);
+	text-align: right;
+}
+
+#marcas h2{
+	font-weight: 100;
+	font-size: 45px;
+}
+
+#marcas h3{
+	font-weight: 400;
+	margin-top: 35px;
+	text-align: left;
+}
+
+#marcas img{
+	margin-top: 50px;
+	max-height: 90px;
+}
+
+#marcas .repuestos img{
+	margin-top: 50px;
+	max-height: 90px;
+	max-width: 100%;
+}
+
+.repuestos .col-md-2{
+	margin: auto;
+  	width: 50%;
+ 	padding: 10px;
+}
+
+footer{
+	background: #000000;
+	height: 450px;
+	margin-top: 150px;
+	color: white;
+	position: relative;
+}
+
+footer .col-md-6:nth-child(1){
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 25%;
+  	transform: translate(-50%, -50%);
+}
+
+footer h1{
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+footer .col-md-6:nth-child(2){
+  	border-left: 3px solid white;
+  	padding: 40px;
+  	font-weight: 100;
+  	font-size: 18px;
+  	line-height: 40px;
+  	text-align: left;
+  	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 75%;
+  	transform: translate(-50%, -50%);
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer i{
+	font-size: 24px;
+	letter-spacing: 10px;
+}
+
+#firma p{
+	color: grey;
+	text-align: center;
+	object-position: bottom;
+	position: absolute;
+  	top: 95%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
