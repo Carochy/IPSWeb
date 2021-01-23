@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Carochy/IPSWeb/issues"
   },
-  "homepage": "https://github.com/Carochy/IPSWeb"
+  "homepage": "https://github.com/Carochy/IPSWeb",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
